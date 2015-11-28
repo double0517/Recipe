@@ -1,0 +1,27 @@
+﻿生成启动时间为 2015/11/28 14:39:13。
+     1>项目“C:\Users\Administrator\Desktop\Recipe\Recipe\Recipe.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Recipe.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\软件安装\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Recipe.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RecipeDlg.cpp
+         RecipeDlg.cpp
+     1>RecipeDlg.cpp(411): error C2374: “sumlen”: 重定义；多次初始化
+                 RecipeDlg.cpp(363) : 参见“sumlen”的声明
+     1>RecipeDlg.cpp(411): error C2086: “int i”: 重定义
+                 RecipeDlg.cpp(363) : 参见“i”的声明
+     1>RecipeDlg.cpp(411): error C2086: “int j”: 重定义
+                 RecipeDlg.cpp(363) : 参见“j”的声明
+     1>RecipeDlg.cpp(412): error C2374: “summoney”: 重定义；多次初始化
+                 RecipeDlg.cpp(364) : 参见“summoney”的声明
+     1>RecipeDlg.cpp(413): error C2374: “givemoney”: 重定义；多次初始化
+                 RecipeDlg.cpp(365) : 参见“givemoney”的声明
+     1>RecipeDlg.cpp(414): error C2374: “moneyrest”: 重定义；多次初始化
+                 RecipeDlg.cpp(366) : 参见“moneyrest”的声明
+     1>RecipeDlg.cpp(415): error C2086: “CString strSum”: 重定义
+                 RecipeDlg.cpp(372) : 参见“strSum”的声明
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Recipe\Recipe\Recipe.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.24
